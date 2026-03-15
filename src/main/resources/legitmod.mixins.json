@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.legitmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityMixin",
+    "ChatHudMixin",
+    "PlayerListHudMixin",
+    "NameTagMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

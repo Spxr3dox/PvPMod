@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "legitmod",
+  "version": "${version}",
+  "name": "LegitMod",
+  "description": "Client helper mod",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.legitmod.LegitMod"]
+  },
+  "mixins": ["legitmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "fabric-api":   "*",
+    "minecraft":    "~1.21.4"
+  }
+}
